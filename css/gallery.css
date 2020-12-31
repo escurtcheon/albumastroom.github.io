@@ -1,0 +1,210 @@
+html,body {
+	width: 100%;
+	height: 100%;
+}
+
+.navbar {
+	padding: .8rem;
+}
+
+.navbar li {
+	padding-top: 5px;
+	padding-right: 20px;
+}
+
+.nav-link {
+	font-size: 1.1em !important;
+}
+
+.carousel-inner img {
+	width: 100%;
+	height: 100%;
+}
+
+.carousel-caption {
+	position: absolute;
+	top: 50%;
+	transform: translateY(-50%);
+}
+
+.l1 {
+	font-size: 1.5rem;
+	padding-top: 3rem;
+	text-align: center;
+	color: white;
+	font-family: 'Roboto', sans-serif;
+}
+
+.welcome {
+	margin-top: 2rem;
+}
+
+.welcome hr {
+	border-top: 2px solid #b4b4b4;
+	width: 20%;
+	margin-top: .3rem;
+	margin-bottom: 1rem;
+}
+
+._10,._11,._12 {
+	color: white;
+}
+
+._10:hover,._11:hover,._12:hover {
+	text-decoration: none;
+	color: gold;
+}
+
+.kelas_10 {
+	background-image: url("../img/image.png");
+	background-size: cover;
+}
+
+.kelas_11 {
+	background-image: url("../img/image.png");
+	background-size: cover;
+}
+
+.kelas_12 {
+	background-image: url("../img/image.png");
+	background-size: cover;
+}
+
+.kelas_10,
+.kelas_11,
+.kelas_12 {
+	width: 20rem;
+	height: 20rem;
+	margin-left: 2rem !important;
+	position: relative;
+	right: 15px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+
+.satu {
+	background-image: url("../kelas10/1.png");
+	background-size: cover;
+}
+
+.dua {
+	background-image: url("../kelas10/2.png");
+	background-size: cover;
+}
+
+.tiga {
+	background-image: url("../kelas10/3.png");
+	background-size: cover;
+}
+
+
+.empat {
+	background-image: url("../kelas10/4.png");
+	background-size: cover;
+}
+
+.lima {
+	background-image: url("../kelas10/5.png");
+	background-size: cover;
+}
+
+.enam {
+	background-image: url("../kelas10/6.png");
+	background-size: cover;
+}
+
+
+.satu,.dua,.tiga,.empat,.lima,.enam {
+	height: 12rem;
+	width: 20rem;
+	position: relative;
+	right: 20px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.btn_more {
+	margin: 20px 550px;
+	height: 2.8rem;
+	width: 6rem;
+	font-size: 20px;
+}
+
+.quotes {
+  margin-top: 5rem;
+  background-image: url("../img/MAN1.png");
+  background-size: cover;
+  height: 20rem;
+}
+
+.l2 {
+	margin-top: 9rem;
+	font-size: 2em;
+}
+
+.l2,
+.l3 {
+	text-align: center;
+	color: white;
+}
+
+.medsos {
+	margin-top: 2rem;
+}
+
+.instagram:hover {
+	color: black;
+}
+
+footer {
+	margin-top: 2.1rem;
+	color: black;
+}
+
+.gallery-image:hover {
+	filter: grayscale(100%);
+	transform: scale(1.1);
+}
+
+@media screen and (max-device-width: 360px) {
+
+	.carousel-inner img {
+		width: 100%;
+		height: 100%;
+		background-size: auto;
+    }
+
+	.l1 {
+		padding-right: 1rem;
+		padding-top: 1rem;
+		font-size: 1rem;
+		margin-right: 2rem;
+		text-align: center;
+	}
+
+	.carousel-indicators {
+		padding-right: 2.9rem;
+	}
+
+	.l2 {
+		font-size: 1.2rem;
+		margin-top: 7rem;
+	}
+
+	.l3 {
+		padding-left: 2rem;
+	}
+
+	.instagram img {
+		margin-left: 2rem;
+	}
+
+	.gallery-image {
+		margin-left: 1.5rem;
+		margin-top: 2rem;
+	}
+
+	.bar {
+		margin-top: 2rem;
+	}
+}
